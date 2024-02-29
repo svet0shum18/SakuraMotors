@@ -223,6 +223,7 @@ width: 100%;
 	margin-top: -351px;
 	margin-left: 50px;
 	margin-right: 50px;
+	cursor: pointer;
 }
 
 .ellips {
@@ -425,4 +426,434 @@ footer {
  .back-to-top.active {
 	bottom: 50px;
 	transition: .4s linear;
+ }
+
+
+
+ /* АДАПТИВ ПОД ТЕЛЕФОН */
+
+
+ @media screen and (max-width: 768px) {
+	
+	.shapka {
+		background-color: #222222;
+		height: 80px;
+		width: 100%;
+		}
+		.logo {
+			width: 168px;
+			height: 64px;
+			margin-left: 10px;
+			margin-top: 4px;
+		}
+		/* КАРТА */
+		.map {
+			display: flex;
+			margin-top: -48px;
+			margin-left: 280px;
+			width: 30px;
+			height: 30px;
+		}
+		
+		.info {
+			font-weight: 500;
+			color: #fff;
+			margin-top: 0px;
+			margin-left: 4px;
+			line-height: 15px;
+			white-space: nowrap;
+			font-size: 10px;
+		}
+		
+		/* ТЕЛЕФОН */
+		
+		.tel {
+			display: flex;
+			margin-top: -30px;
+			margin-left: 460px; 
+			width: 30px;
+			height: 30px;	
+		}
+		
+		.prod {
+			font-weight: 500;
+			color: #ff0000;
+			margin-top: 0px;
+			margin-left: 4px;
+			line-height: 15px;
+			font-size: 10px;
+		
+		}
+		/* СЕРВИС ДИРЕКТОР */
+		.telinfo {
+			margin-top: -31px;
+			margin-left: 600px; 	
+			line-height: 8px;
+			font-size: 6px;
+			
+		}
+		/* НАВИГАЦИЯ */
+
+.navigation {
+	height: 40px;
+	background-color: #fff;
+}
+/* ТЕКСТ НАВИГАЦИИ */
+.navtxt {
+	display: flex;
+	justify-content: space-between;
+	width: 380px;
+	margin-left: 10px;
+	padding-top: 12px;
+}
+
+.txtnav {
+	color: #000;
+	font-weight: 800;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 13px;
+}
+
+
+
+/* ПОИСК ИКОНКИ */
+.poisk {
+	display: flex;
+	justify-content: space-between;
+	width: 28px;
+	margin-top: -9px;
+	margin-left: 230px;
+	visibility: hidden;
+}
+
+.poistr {
+	
+	width: 220px;
+	border: 1px solid #000;
+	border-radius: 100px;
+	height: 20px;
+}
+
+.poistrk {
+	margin-top: -35px;
+	margin-left: 520px;
+}
+
+/* ГЛАВНАЯ СТРАНИЦА */
+
+.glavstr {
+	background-image: url(img/backgrglav.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 576px;
+	display: block;
+}
+
+/* ТЕКСТ НА ГЛАВ СТРАНИЦЫ */
+
+@font-face {
+	font-family: "Akira Expanded";
+	src: url(font/AkiraExpanded.otf);
+}
+
+.Sakura {
+	color: #fff;
+	font-family: "Akira Expanded";
+	font-size: 50px;
+	padding-top: 190px;
+	margin-left: 100px;
+	white-space: nowrap;
+
+}
+
+.BuyAuto {
+	color: #fff;
+	padding-top: 30px;
+	margin-left: 140px;
+	white-space: nowrap;
+}
+
+/* КНОПКА ОТКРЫТ КАТАЛОГ */
+
+.OpenCat {
+	font-weight: 700;
+	color: #fff;
+	font-size: 20px;
+	background-color: rgba(255,0,0,.7);
+	border: none;
+	border-radius: 100px;
+	padding: 13px;
+	margin-left: 300px;
+	margin-top: 40px;
+	transition: .2s linear;
+}
+
+.OpenCat:hover {
+	box-shadow: #ff0000 0 0px 0px 40px inset;
+	cursor: pointer;
+}
+
+/* КАТАЛОГ СТР2 */
+
+/* ЗАГОЛОВОК */
+
+.Z1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100px;
+	
+}
+
+.Z1-txt {
+	font-weight: 800;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+/* ВЫБЕРИ МАРКУ АВТО */
+.Vblbor {
+	width: 100%;
+	height: 900px;
+	background-color: #f2f0f1;
+}
+
+.Z2 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	font-weight: 800;
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+/* ФОТОГРАФИИ МАШИН */
+
+.image-car {
+	display: block;
+	justify-content: space-around;
+	margin-top: -720px;
+	margin-left: 200px;
+	margin-right: 50px;
+}
+
+
+.overlay {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -351px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.ellips {
+	opacity: 0;
+	transition: .3s;
+}
+
+.ellips:hover {
+	opacity: 1;
+
+}
+
+
+.txtAuto {
+	color: #fff;
+	font-weight: 800;
+
+}
+
+
+/* ДОП УСЛУГИ */
+
+.Yslugi {
+	background-color: #222222;
+	display: block;
+	width: 100%;
+	height: 768px;
+	margin-top: 90px;
+	
+}
+
+.txtYslugi {
+	font-weight: 800;
+	font-size: 40px;
+	color: #fff;
+	margin-top: 30px;
+	text-align: center;
+	
+}
+
+.Servis {
+	font-weight: 800;
+	font-size: 40px;
+	color: #ff0000;
+	margin-top: 25px;
+	text-align: center;
+
+}
+
+.imgYslugi {
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}
+
+
+/* БЛОГ */
+
+.Blog {
+	background-color: #f2f0f1;
+	display: block;
+	width: 100%;
+	height: 768px;
+	padding-top: 136px;
+}
+
+.txtPodpis {
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 65px;
+	color: #000;
+	text-align: center;
+}
+
+.vk {
+	display: flex;
+	justify-content: center;
+}
+
+
+.Email {
+	border-radius: 100px;
+	border: 2px solid #000;
+	font-size: 30px;
+	width: 654px;
+	height: 20px;
+	padding: 10px;
+
+}
+
+
+.stroka {
+	display: block;
+	justify-content: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+.btnPodpis {
+	background-color: #fb4848;
+	border: none;
+	border-radius: 100px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 20px;
+	width: 240px;
+	margin-top: 30px;
+	text-align: center;
+	
+}
+
+.btnPodpis:hover {
+	box-shadow: #ff0000 0 0px 0px 40px inset;
+	cursor: pointer;
+}
+
+.btnpod {
+	display: flex;
+	justify-content: center;
+}
+
+
+/* КОНТАКТЫ */
+
+.kontakt {
+	width: 100%;
+	height: 768px;
+}
+
+
+.direktor {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+
+.karto4ka {
+	color: #fff;
+	font-weight: 800;
+	font-size: 40px;
+	text-align: center;
+}
+
+.txtpod {
+	display: block;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.textkone {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+
+/* ФУТЕР */
+
+footer {
+	background-color: #f2f0f1;
+	height: 160px;
+}
+
+.txtf {
+	display: block;
+	padding-top: 38px;
+}
+
+.pod {
+	font-weight: 600;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* 
+КНОПКА ВВЕРХ
+ */
+
+ .back-to-top {
+	position: fixed;
+	bottom: -50px;
+	right: 30px;
+	background: rgba(255,0,0,.7);
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	transition: .4s linear;
+ }
+
+
+ .back-to-top.active {
+	bottom: 50px;
+	transition: .4s linear;
+ }
+
+
+
+
+
  }
